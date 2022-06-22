@@ -81,9 +81,9 @@ p {
   background: none;
   border: none;
   width: 3%;
-  height: -1%;
+  height: 5%;
   left: 63%;
-  top: 0%;
+  top: 16%;
 }
 .eyeRegisterConfig{
   position: absolute;
@@ -93,7 +93,7 @@ p {
   width: 3%;
   height: 5%;
   left: 63%;
-  top: 59%;
+  top: 67%;
 }
 @media (min-width: 699px) and (max-width: 1200px) {
  .logoReg{
@@ -164,6 +164,20 @@ p {
   .logoReg{
     grid-column: 17/span 25;
   }
+  .containerEmpty {
+    width: 42%;
+    height: 79%;
+    top: 18%;
+    left: 30.5%;
+}
+.form-control-img {
+  width: 39%;
+  padding: 14px 0px 37px 152px;
+}
+.btn-add {
+  width: 59%;
+  font-size: 22px;
+}
 .blurFormReg{
   left: 30%;
   width: 35%;
@@ -235,5 +249,25 @@ p {
   border-radius: 10px;
   font-size: 18px;
   text-align: center;
+}
+.form-group {
+  grid-column: 8/span 19;
+  grid-row: 6/span 18;
+  display: flex;
+  flex-direction: column;
+  width: 64%;
+  height: 66%;
+  justify-content: space-around;
+  z-index: 1;
+  align-items: center;
+}
+.form-control {
+  width: 57%;
+  padding: 14px;
+  font-size: large;
+}
+.optionsSelectMenu {
+  width: 61%;
+  padding: 1.6%;
 }
 }

@@ -21,15 +21,15 @@ background-color: rgb(241, 234, 234);
     }
     
     .form-group{
-        grid-column: 4/span 17;
-        grid-row: 6/span 18;
+        grid-column: 5/span 19;
+        grid-row: 4/span 18;
         display: flex;
-        width: 121%;
-        z-index: 1;
-        text-align: center;
         flex-direction: column;
-        align-items: stretch;
+        width: 72%;
+        height: 70%;
         justify-content: space-around;
+        z-index: 1;
+        align-items: center;
     }
     
     .form-control-img{
@@ -91,15 +91,15 @@ background-color: rgb(241, 234, 234);
             left: 13.5%;
         }
         .form-group{
-            grid-column: 5/span 17;
-            grid-row: 7/span 18;
+            grid-column: 5/span 19;
+            grid-row: 4/span 18;
             display: flex;
-            width: 100%;
-            z-index: 1;
-            text-align: center;
             flex-direction: column;
-            align-items: center;
+            width: 72%;
+            height: 70%;
             justify-content: space-around;
+            z-index: 1;
+            align-items: center;
         }
         
         .form-control-img{
@@ -135,15 +135,15 @@ background-color: rgb(241, 234, 234);
                 left: 31.5%;
         }  
         .form-group{
-            grid-column: 4/span 17;
-            grid-row: 3/span 18;
+            grid-column: 5/span 19;
+            grid-row: 4/span 18;
             display: flex;
-            width: 119%;
-            z-index: 1;
-            text-align: center;
             flex-direction: column;
+            width: 72%;
+            height: 70%;
+            justify-content: space-around;
+            z-index: 1;
             align-items: center;
-            justify-content: flex-start;
         }
         .form-control-img{
             width: 29%;
